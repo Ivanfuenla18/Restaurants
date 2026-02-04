@@ -33,7 +33,7 @@ const MapContainer = ({ onPlacesLoaded }) => {
       fields: ["displayName", "location", "photos", "rating"],
       includedPrimaryTypes: ["cafe"],
       locationRestriction: { center: currentPosition, radius: 1500 },
-      maxResultCount: 15,
+      maxResultCount: 9,
     };
 
     const { places } = await Place.searchNearby(request);
