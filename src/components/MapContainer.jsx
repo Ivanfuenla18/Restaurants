@@ -1,6 +1,7 @@
 import UseMapApiLoader from "../hooks/UseMapApiLoader.jsx";
 import { GoogleMap } from "@react-google-maps/api";
 import { useState, useEffect } from "react";
+import RestaurantCard from "./RestaurantCard.jsx";
 
 const MapContainer = () => {
   const isLoaded = UseMapApiLoader();
@@ -53,6 +54,7 @@ const MapContainer = () => {
     const { places } = await Place.searchNearby(request);
 
     if (places && places.length > 0) {
+      onPlacesLoaded(places);
       places.forEach((place) => {
         // 1. Quitamos los corchetes []. Solo necesitamos el objeto.
         const post = {
