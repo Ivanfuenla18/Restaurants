@@ -1,16 +1,30 @@
-# React + Vite
+☕ Café Curator - Restaurants Near Me
+Café Curator es una aplicación web moderna diseñada para ayudar a los usuarios a descubrir los mejores restaurantes y cafeterías en su ubicación actual. Utilizando la Google Maps JavaScript API, la aplicación ofrece una experiencia visual e interactiva para explorar locales cercanos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Funcionalidades
+Geolocalización en tiempo real: Detecta automáticamente la ubicación del usuario para centrar el mapa.
 
-Currently, two official plugins are available:
+Búsqueda Inteligente (Places API): Filtra y muestra hasta 20 establecimientos cercanos (restaurantes y cafeterías).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Interfaz Interactiva: Mapa con marcadores personalizados de tipo AdvancedMarkerElement.
 
-## React Compiler
+Grid de Tarjetas Dinámico: Lista detallada con fotos reales, nombres y puntuaciones (rating) obtenidas de Google.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Diseño 100% Responsive: Optimizado para una visualización perfecta en móviles, tablets y escritorio.
 
-## Expanding the ESLint configuration
+Modo Oscuro: Estética moderna y elegante con una paleta de colores oscuros.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tecnologías Utilizadas
+React.js: Biblioteca principal para la interfaz de usuario.
+
+Vite: Herramienta de construcción para un desarrollo ultra rápido.
+
+Google Maps JavaScript API:
+
+Libraries: Places, Marker.
+
+React Google Maps API: Wrapper para la integración de mapas en React.
+
+CSS3 (Custom Properties & Grid): Diseño de cuadrícula flexible y responsive sin dependencias externas de UI.
+
+Vercel: Plataforma de despliegue y CI/CD.
