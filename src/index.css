@@ -13,3 +13,27 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+.cardsContainer {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cafeCard {
+  color: #ffffff;
+
+  width: 300px;
+  height: auto;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px auto;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.cafeCard:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
